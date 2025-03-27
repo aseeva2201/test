@@ -26,7 +26,6 @@ while True:
     # Input numbers
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
-
     # Perform operation
     if choice == '1':
         print(num1, "+", num2, "=", addition(num1, num2))
@@ -39,4 +38,3 @@ while True:
         print(num1, "/", num2, "=", division_result)
     else:
         print("Invalid input. Please try again.")
-
