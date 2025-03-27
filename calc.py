@@ -1,15 +1,19 @@
 # Simple Calculator
 def addition(x, y):
     return x + y
+    
 def subtraction(x, y):
     return x - y
+    
 def multiplication(x, y):
     return x * y
+    
 def division(x, y):
     if y != 0:
         return x / y
     else:
         return "Error: division by zero"
+        
 # Main code
 while True:
     # Input operation
@@ -38,4 +42,3 @@ while True:
         print(num1, "/", num2, "=", division_result)
     else:
         print("Invalid input. Please try again.")
-        
